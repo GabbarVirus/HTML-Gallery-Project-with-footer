@@ -1,28 +1,18 @@
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.footer-col{
+.footer-main{
     display: flex;
     height: 200px;
-    width: 1532px;
     background-color: black;
     color: aliceblue;
-    flex-wrap: wrap;
     justify-content: space-around;
-    
-    
+    width: 100%;
+    align-items: center;
 }
 ul{
     list-style: none;
-}
-.footer-col-1{
-    position: absolute;
-    margin-left: 200px;
-}
-.footer-col-2{
-    top: 5px;
-    position: absolute;
-    margin-left: 500px;
 }
